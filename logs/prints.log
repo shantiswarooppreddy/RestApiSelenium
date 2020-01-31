@@ -1,36 +1,7 @@
-07:27:32.196 [main] INFO  Sample.NavigationDemo - Chrome driver is launched
-07:28:28.712 [main] INFO  Sample.NavigationDemo - Chrome driver is launched
-07:28:29.311 [main] INFO  Sample.NavigationDemo - Searching with the word Abacus
-07:30:11.977 [main] INFO  Sample.NavigationDemo - Chrome driver is launched
-07:30:12.193 [main] INFO  Sample.NavigationDemo - Searching with the word Abacus
-07:30:12.229 [main] INFO  Sample.NavigationDemo - Refreshed the page
-07:30:16.872 [main] INFO  Sample.NavigationDemo - Navigated to wikipedia
-07:30:18.244 [main] INFO  Sample.NavigationDemo - Naviagted back
-07:30:21.098 [main] INFO  Sample.NavigationDemo - Navigated forward
-07:30:21.816 [main] INFO  Sample.NavigationDemo - Quit the browser
-08:11:12.192 [main] INFO  Sample.NavigationDemo - Chrome driver is launched
-08:11:12.449 [main] INFO  Sample.NavigationDemo - Searching with the word Abacus
-08:11:12.472 [main] INFO  Sample.NavigationDemo - Refreshed the page
-08:11:19.745 [main] INFO  Sample.NavigationDemo - Navigated to wikipedia
-08:11:22.707 [main] INFO  Sample.NavigationDemo - Naviagted back
-08:11:25.321 [main] INFO  Sample.NavigationDemo - Navigated forward
-08:11:26.507 [main] INFO  Sample.NavigationDemo - Quit the browser
-09:17:29.659 [main] INFO  Sample.NavigationDemo - Chrome driver is launched
-09:17:30.045 [main] INFO  Sample.NavigationDemo - Searching with the word Abacus
-09:17:30.063 [main] INFO  Sample.NavigationDemo - Refreshed the page
-09:17:33.079 [main] INFO  Sample.NavigationDemo - Navigated to wikipedia
-09:20:12.910 [main] INFO  Sample.SevenAtLast - Driver has been initialized
-09:20:17.149 [main] INFO  Sample.SevenAtLast - Navigated to the partiuclar site
-09:21:33.233 [main] INFO  Sample.SevenAtLast - Driver has been initialized
-09:21:36.054 [main] INFO  Sample.SevenAtLast - Navigated to the partiuclar site
-09:22:38.456 [main] INFO  Sample.SevenAtLast - Driver has been initialized
-09:22:40.912 [main] INFO  Sample.SevenAtLast - Navigated to the partiuclar site
-10:43:12.325 [main] INFO  Sample.SevenAtLast - Driver has been initialized
-10:43:16.658 [main] INFO  Sample.SevenAtLast - Navigated to the partiuclar site
-10:49:56.706 [main] INFO  Sample.SevenAtLast - Driver has been initialized
-10:49:59.757 [main] INFO  Sample.SevenAtLast - Navigated to the partiuclar site
-10:51:23.006 [main] INFO  Sample.SevenAtLast - Driver has been initialized
-10:53:06.681 [main] INFO  Sample.SevenAtLast - Driver has been initialized
-10:53:09.361 [main] INFO  Sample.SevenAtLast - Initialization of the Action Driver
-10:58:30.677 [main] INFO  Sample.SevenAtLast - Driver has been initialized
-10:58:33.021 [main] INFO  Sample.SevenAtLast - Initialization of the Action Driver
+11:02:39.486 [main] INFO  Sample.NavigationDemo - Chrome driver is launched
+11:02:40.008 [main] INFO  Sample.NavigationDemo - Searching with the word Abacus
+11:02:40.155 [main] INFO  Sample.NavigationDemo - Refreshed the page
+11:02:43.923 [main] INFO  Sample.NavigationDemo - Navigated to wikipedia
+11:02:47.237 [main] INFO  Sample.NavigationDemo - Naviagted back
+11:02:49.586 [main] INFO  Sample.NavigationDemo - Navigated forward
+11:02:50.244 [main] INFO  Sample.NavigationDemo - Quit the browser
