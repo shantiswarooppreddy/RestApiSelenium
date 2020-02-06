@@ -16,5 +16,10 @@ public class Repository1 extends TestInitialization{
 	
 	@FindBy(xpath = "//input[@name='q']")
 	public static WebElement input;
+	
+	//Radio Buttons Checking 
+	
+	@FindBy(xpath = "//div[@id='radio-btn-example']//label[1]//input[1]")
+	public static WebElement radiobutton;
 
 }

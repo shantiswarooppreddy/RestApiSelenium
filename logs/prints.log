@@ -1,7 +1,7 @@
-11:02:39.486 [main] INFO  Sample.NavigationDemo - Chrome driver is launched
-11:02:40.008 [main] INFO  Sample.NavigationDemo - Searching with the word Abacus
-11:02:40.155 [main] INFO  Sample.NavigationDemo - Refreshed the page
-11:02:43.923 [main] INFO  Sample.NavigationDemo - Navigated to wikipedia
-11:02:47.237 [main] INFO  Sample.NavigationDemo - Naviagted back
-11:02:49.586 [main] INFO  Sample.NavigationDemo - Navigated forward
-11:02:50.244 [main] INFO  Sample.NavigationDemo - Quit the browser
+10:51:01.306 [main] INFO  Sample.NavigationDemo - Chrome driver is launched
+10:51:02.514 [main] INFO  Sample.NavigationDemo - Searching with the word Abacus
+10:51:02.966 [main] INFO  Sample.NavigationDemo - Refreshed the page
+10:51:08.824 [main] INFO  Sample.NavigationDemo - Navigated to wikipedia
+10:51:09.511 [main] INFO  Sample.NavigationDemo - Naviagted back
+10:51:11.873 [main] INFO  Sample.NavigationDemo - Navigated forward
+10:51:12.552 [main] INFO  Sample.NavigationDemo - Quit the browser
