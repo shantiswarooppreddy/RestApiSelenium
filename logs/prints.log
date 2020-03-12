@@ -44,3 +44,18 @@
 09:12:56.205 [main] INFO  Sample.SuggestionClass - Entering in the suggestion class
 09:12:58.329 [main] INFO  Sample.SuggestionClass - The required item has been selected
 09:13:04.141 [main] INFO  Sample.SuggestionClass - The driver has been quit
+11:15:02.916 [main] INFO  Sample.DropDown - The user has open the required browser
+11:15:06.183 [main] INFO  Sample.DropDown - The user gets into the required practice page
+11:15:06.634 [main] INFO  Sample.DropDown - The dropdown has been initialized
+11:15:07.298 [main] INFO  Sample.DropDown - The required dropdown has been selected
+11:27:20.120 [main] INFO  Sample.DropDown - The user has open the required browser
+11:27:25.217 [main] INFO  Sample.DropDown - The user gets into the required practice page
+11:27:25.638 [main] INFO  Sample.DropDown - The dropdown has been initialized
+11:27:25.810 [main] INFO  Sample.DropDown - The required dropdown has been selected
+11:27:25.985 [main] INFO  Sample.DropDown - Selection of the required dropdown has been asserted
+11:28:05.168 [main] INFO  Sample.DropDown - The user has open the required browser
+11:28:08.437 [main] INFO  Sample.DropDown - The user gets into the required practice page
+11:28:08.914 [main] INFO  Sample.DropDown - The dropdown has been initialized
+11:28:09.024 [main] INFO  Sample.DropDown - The required dropdown has been selected
+11:28:09.131 [main] INFO  Sample.DropDown - Selection of the required dropdown has been asserted
+11:28:09.796 [main] INFO  Sample.DropDown - The user chose quit the driver

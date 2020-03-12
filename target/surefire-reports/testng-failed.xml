@@ -6,11 +6,11 @@
   </listeners>
   <test thread-count="5" verbose="0" name="Nopackage(failed)">
     <classes>
-      <class name="Sample.SuggestionClass">
+      <class name="Sample.DropDown">
         <methods>
-          <include name="suggestionClass"/>
+          <include name="dropDown"/>
         </methods>
-      </class> <!-- Sample.SuggestionClass -->
+      </class> <!-- Sample.DropDown -->
     </classes>
   </test> <!-- Nopackage(failed) -->
 </suite> <!-- Failed suite [Suite1] -->

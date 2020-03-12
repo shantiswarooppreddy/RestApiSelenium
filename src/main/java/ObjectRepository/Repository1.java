@@ -27,5 +27,8 @@ public class Repository1 extends TestInitialization{
 	
 	@FindBy(xpath = "//li/div[text()='India']")
 	public static WebElement Select;
+	
+	@FindBy(xpath = "//select[@id='dropdown-class-example']")
+	public static WebElement dropdown;
 
 }

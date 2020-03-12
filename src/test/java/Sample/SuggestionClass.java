@@ -2,6 +2,8 @@ package Sample;
 
 import org.apache.logging.log4j.LogManager;
 import org.apache.logging.log4j.Logger;
+import org.openqa.selenium.support.ui.ExpectedConditions;
+import org.openqa.selenium.support.ui.WebDriverWait;
 import org.testng.annotations.Test;
 
 import ObjectRepository.Repository1;
@@ -27,12 +29,12 @@ public class SuggestionClass extends TestInitialization{
 		logger.info("Entering in the suggestion class");
 		
 		//Selecting the required country
-		Thread.sleep(2000);
+		WebDriverWait wait = new WebDriverWait(driver, 10);
+		wait.until(ExpectedConditions.visibilityOf(Repository1.Select));
 		Repository1.Select.click();
 		logger.info("The required item has been selected");
 		
 		//Quitting the driver
-		Thread.sleep(5000);
 		driver.quit();
 		logger.info("The driver has been quit");
 	}
