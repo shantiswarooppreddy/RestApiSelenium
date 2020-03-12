@@ -2,17 +2,17 @@ package Sample;
 
 import org.apache.logging.log4j.LogManager;
 import org.apache.logging.log4j.Logger;
-import org.testng.Assert;
 import org.testng.annotations.Test;
+
 import ObjectRepository.Repository1;
 import TestBase.TestInitialization;
 
-public class RadioButton extends TestInitialization{
+public class SuggestionClass extends TestInitialization{
 	
-	static Logger logger = LogManager.getLogger(RadioButton.class.getName());
+	static Logger logger = LogManager.getLogger(SuggestionClass.class.getName());
 	
 	@Test
-	void radioButton()
+	void suggestionClass() throws InterruptedException
 	{
 		//Initializing the driver
 		Repository1.Repository();
@@ -22,15 +22,17 @@ public class RadioButton extends TestInitialization{
 		driver.get("https://rahulshettyacademy.com/AutomationPractice/");
 		logger.info("The user gets into the required practice page");
 		
-		//Clicking the required radio button
-		Repository1.radiobutton.click();
-		logger.info("The user has clicked the required radio button");
+		//Entering the Required field
+		Repository1.SuggestionClass.sendKeys("Indi");
+		logger.info("Entering in the suggestion class");
 		
-		//Verifying that the required radio button has been clicked
-		Assert.assertTrue(Repository1.radiobutton.isSelected());
-		logger.info("Verifying that the required radio button has been selected");
+		//Selecting the required country
+		Thread.sleep(2000);
+		Repository1.Select.click();
+		logger.info("The required item has been selected");
 		
 		//Quitting the driver
+		Thread.sleep(5000);
 		driver.quit();
 		logger.info("The driver has been quit");
 	}

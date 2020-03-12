@@ -19,7 +19,13 @@ public class Repository1 extends TestInitialization{
 	
 	//Radio Buttons Checking 
 	
-	@FindBy(xpath = "//div[@id='radio-btn-example']//label[1]//input[1]")
+	@FindBy(xpath = "//div[@id='radio-btn-example']//label[2]//input[1]")
 	public static WebElement radiobutton;
+	
+	@FindBy(xpath = "//input[@id='autocomplete']")
+	public static WebElement SuggestionClass;
+	
+	@FindBy(xpath = "//li/div[text()='India']")
+	public static WebElement Select;
 
 }

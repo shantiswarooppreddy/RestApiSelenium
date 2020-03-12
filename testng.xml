@@ -6,7 +6,7 @@
   </listeners>
   <test name="Nopackage" >
     <classes>
-       <class name="Sample.NavigationDemo" />
+       <class name="Sample.SuggestionClass" />
     </classes>
   </test>
 </suite>
