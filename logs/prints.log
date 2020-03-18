@@ -1,61 +1,7 @@
-07:56:10.453 [main] INFO  Sample.NavigationDemo - Chrome driver is launched
-07:56:10.927 [main] INFO  Sample.NavigationDemo - Searching with the word Abacus
-07:56:10.972 [main] INFO  Sample.NavigationDemo - Refreshed the page
-07:56:15.403 [main] INFO  Sample.NavigationDemo - Navigated to wikipedia
-07:56:16.195 [main] INFO  Sample.NavigationDemo - Naviagted back
-07:56:17.031 [main] INFO  Sample.NavigationDemo - Navigated forward
-07:56:17.697 [main] INFO  Sample.NavigationDemo - Quit the browser
-07:57:02.629 [main] INFO  Sample.RadioButton - The user has open the required browser
-07:57:06.975 [main] INFO  Sample.RadioButton - The user gets into the required practice page
-07:57:07.640 [main] INFO  Sample.RadioButton - The user has clicked the required radio button
-07:57:07.759 [main] INFO  Sample.RadioButton - Verifying that the required radio button has been selected
-08:21:33.922 [main] INFO  Sample.SuggestionClass - The user has open the required browser
-08:21:39.121 [main] INFO  Sample.SuggestionClass - The user gets into the required practice page
-08:21:39.882 [main] INFO  Sample.SuggestionClass - Entering in the suggestion class
-08:31:45.210 [main] INFO  Sample.SuggestionClass - The user has open the required browser
-08:31:50.404 [main] INFO  Sample.SuggestionClass - The user gets into the required practice page
-08:31:51.015 [main] INFO  Sample.SuggestionClass - Entering in the suggestion class
-08:34:50.184 [main] INFO  Sample.SuggestionClass - The user has open the required browser
-08:34:54.980 [main] INFO  Sample.SuggestionClass - The user gets into the required practice page
-08:34:55.621 [main] INFO  Sample.SuggestionClass - Entering in the suggestion class
-08:40:55.669 [main] INFO  Sample.SuggestionClass - The user has open the required browser
-08:40:59.793 [main] INFO  Sample.SuggestionClass - The user gets into the required practice page
-08:41:00.410 [main] INFO  Sample.SuggestionClass - Entering in the suggestion class
-08:59:16.801 [main] INFO  Sample.SuggestionClass - The user has open the required browser
-08:59:22.561 [main] INFO  Sample.SuggestionClass - The user gets into the required practice page
-08:59:23.171 [main] INFO  Sample.SuggestionClass - Entering in the suggestion class
-08:59:25.396 [main] INFO  Sample.SuggestionClass - The required item has been selected
-08:59:26.512 [main] INFO  Sample.SuggestionClass - The driver has been quit
-09:00:13.854 [main] INFO  Sample.SuggestionClass - The user has open the required browser
-09:00:17.587 [main] INFO  Sample.SuggestionClass - The user gets into the required practice page
-09:00:18.204 [main] INFO  Sample.SuggestionClass - Entering in the suggestion class
-09:00:20.338 [main] INFO  Sample.SuggestionClass - The required item has been selected
-09:00:21.200 [main] INFO  Sample.SuggestionClass - The driver has been quit
-09:01:17.395 [main] INFO  Sample.SuggestionClass - The user has open the required browser
-09:01:20.736 [main] INFO  Sample.SuggestionClass - The user gets into the required practice page
-09:01:21.305 [main] INFO  Sample.SuggestionClass - Entering in the suggestion class
-09:01:23.444 [main] INFO  Sample.SuggestionClass - The required item has been selected
-09:01:29.549 [main] INFO  Sample.SuggestionClass - The driver has been quit
-09:09:57.753 [main] INFO  Sample.SuggestionClass - The user has open the required browser
-09:10:25.076 [main] INFO  Sample.SuggestionClass - The user gets into the required practice page
-09:10:25.648 [main] INFO  Sample.SuggestionClass - Entering in the suggestion class
-09:12:50.413 [main] INFO  Sample.SuggestionClass - The user has open the required browser
-09:12:55.539 [main] INFO  Sample.SuggestionClass - The user gets into the required practice page
-09:12:56.205 [main] INFO  Sample.SuggestionClass - Entering in the suggestion class
-09:12:58.329 [main] INFO  Sample.SuggestionClass - The required item has been selected
-09:13:04.141 [main] INFO  Sample.SuggestionClass - The driver has been quit
-11:15:02.916 [main] INFO  Sample.DropDown - The user has open the required browser
-11:15:06.183 [main] INFO  Sample.DropDown - The user gets into the required practice page
-11:15:06.634 [main] INFO  Sample.DropDown - The dropdown has been initialized
-11:15:07.298 [main] INFO  Sample.DropDown - The required dropdown has been selected
-11:27:20.120 [main] INFO  Sample.DropDown - The user has open the required browser
-11:27:25.217 [main] INFO  Sample.DropDown - The user gets into the required practice page
-11:27:25.638 [main] INFO  Sample.DropDown - The dropdown has been initialized
-11:27:25.810 [main] INFO  Sample.DropDown - The required dropdown has been selected
-11:27:25.985 [main] INFO  Sample.DropDown - Selection of the required dropdown has been asserted
-11:28:05.168 [main] INFO  Sample.DropDown - The user has open the required browser
-11:28:08.437 [main] INFO  Sample.DropDown - The user gets into the required practice page
-11:28:08.914 [main] INFO  Sample.DropDown - The dropdown has been initialized
-11:28:09.024 [main] INFO  Sample.DropDown - The required dropdown has been selected
-11:28:09.131 [main] INFO  Sample.DropDown - Selection of the required dropdown has been asserted
-11:28:09.796 [main] INFO  Sample.DropDown - The user chose quit the driver
+10:04:47.386 [main] INFO  Sample.DataProviderDemo - The data is entered into the excel sheet
+10:06:53.827 [main] INFO  Sample.DataProviderDemo - The data is entered into the excel sheet
+10:23:02.572 [main] INFO  Sample.DataProviderDemo - The data is entered into the excel sheet
+10:28:41.675 [main] INFO  Sample.DataProviderDemo - The data is entered into the excel sheet
+10:54:14.264 [main] INFO  Sample.DataProviderDemo - The data is entered into the excel sheet
+10:54:14.303 [main] INFO  Sample.DataProviderDemo - Printing the set of Data
+10:54:14.313 [main] INFO  Sample.DataProviderDemo - Printing the set of Data

@@ -6,7 +6,7 @@
   </listeners>
   <test name="Nopackage" >
     <classes>
-       <class name="Sample.DropDown" />
+       <class name="Sample.DataProviderDemo" />
     </classes>
   </test>
 </suite>

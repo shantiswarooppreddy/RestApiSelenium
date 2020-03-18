@@ -22,13 +22,24 @@ public class Repository1 extends TestInitialization{
 	@FindBy(xpath = "//div[@id='radio-btn-example']//label[2]//input[1]")
 	public static WebElement radiobutton;
 	
+	//Suggestion Class
+	
 	@FindBy(xpath = "//input[@id='autocomplete']")
 	public static WebElement SuggestionClass;
+	
+	//Select from the Suggestion Class
 	
 	@FindBy(xpath = "//li/div[text()='India']")
 	public static WebElement Select;
 	
+	//Select from the drop down
+	
 	@FindBy(xpath = "//select[@id='dropdown-class-example']")
 	public static WebElement dropdown;
+	
+	//Select the Check box
+	
+    @FindBy(xpath = "//input[@id='checkBoxOption1']")
+    public static WebElement checkbox;
 
 }
