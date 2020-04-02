@@ -1,0 +1,1 @@
+https://rahulshettyacademy.com/getCourse.php?state=verifyfjdss&code=4%2FyAGL4sB7XgsXppPhvRaGrYk0MgOt9-rD8E4p5tHapQ-0ZrXIBmnpFxKSxzcsnkwslCC4oK7dxqql70TWTtVRfuo&scope=email+https%3A%2F%2Fwww.googleapis.com%2Fauth%2Fuserinfo.email+openid&authuser=0&prompt=consent#
