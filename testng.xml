@@ -6,7 +6,7 @@
   </listeners>
   <test name="Nopackage" >
     <classes>
-       <class name="Sample.DataProviderDemo" />
+       <class name="Sample.SwitchTab" />
     </classes>
   </test>
 </suite>

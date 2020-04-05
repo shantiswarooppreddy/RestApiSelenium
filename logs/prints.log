@@ -1,7 +1,38 @@
-10:04:47.386 [main] INFO  Sample.DataProviderDemo - The data is entered into the excel sheet
-10:06:53.827 [main] INFO  Sample.DataProviderDemo - The data is entered into the excel sheet
-10:23:02.572 [main] INFO  Sample.DataProviderDemo - The data is entered into the excel sheet
-10:28:41.675 [main] INFO  Sample.DataProviderDemo - The data is entered into the excel sheet
-10:54:14.264 [main] INFO  Sample.DataProviderDemo - The data is entered into the excel sheet
-10:54:14.303 [main] INFO  Sample.DataProviderDemo - Printing the set of Data
-10:54:14.313 [main] INFO  Sample.DataProviderDemo - Printing the set of Data
+12:50:36.314 [main] INFO  Sample.DataProviderDemo - The user has open the required browser
+12:50:41.504 [main] INFO  Sample.DataProviderDemo - The user gets into the required practice page
+12:50:42.146 [main] INFO  Sample.DataProviderDemo - The user clicks on a new window
+12:50:42.191 [main] INFO  Sample.DataProviderDemo - The user gets the required window handles
+12:50:42.210 [main] INFO  Sample.DataProviderDemo - The user swithces to the new window
+12:50:43.876 [main] INFO  Sample.DataProviderDemo - CLosing the original window
+12:58:42.063 [main] INFO  Sample.DataProviderDemo - The user has open the required browser
+12:58:52.283 [main] INFO  Sample.DataProviderDemo - The user gets into the required practice page
+12:58:54.052 [main] INFO  Sample.DataProviderDemo - The user clicks on a new window
+12:58:54.077 [main] INFO  Sample.DataProviderDemo - The user gets the required window handles
+12:59:06.367 [main] INFO  Sample.DataProviderDemo - The user swithces to the new window
+12:59:06.448 [main] INFO  Sample.DataProviderDemo - CLosing the original window
+12:59:06.476 [main] INFO  Sample.DataProviderDemo - Switching back to the original window
+12:59:07.587 [main] INFO  Sample.DataProviderDemo - The driver has been quit
+16:44:07.349 [main] INFO  Sample.DataProviderDemo - The user has open the required browser
+16:44:11.186 [main] INFO  Sample.DataProviderDemo - The user gets into the required practice page
+16:44:13.000 [main] INFO  Sample.DataProviderDemo - The user clicks on a new window
+16:44:13.044 [main] INFO  Sample.DataProviderDemo - The user gets the required window handles
+16:44:14.089 [main] INFO  Sample.DataProviderDemo - The user switches to the new window
+16:44:14.130 [main] INFO  Sample.DataProviderDemo - Closing the original window
+16:44:14.171 [main] INFO  Sample.DataProviderDemo - Switching back to the original window
+16:44:14.901 [main] INFO  Sample.DataProviderDemo - The driver has been quit
+16:46:23.756 [main] INFO  Sample.DataProviderDemo - The user has open the required browser
+16:46:27.530 [main] INFO  Sample.DataProviderDemo - The user gets into the required practice page
+16:46:29.363 [main] INFO  Sample.DataProviderDemo - The user clicks on a new window
+16:46:29.386 [main] INFO  Sample.DataProviderDemo - The user gets the required window handles
+16:46:30.446 [main] INFO  Sample.DataProviderDemo - The user switches to the new window
+16:46:30.504 [main] INFO  Sample.DataProviderDemo - Closing the original window
+16:46:30.535 [main] INFO  Sample.DataProviderDemo - Switching back to the original window
+16:46:31.235 [main] INFO  Sample.DataProviderDemo - The driver has been quit
+16:47:27.694 [main] INFO  Sample.DataProviderDemo - The user has open the required browser
+16:47:46.652 [main] INFO  Sample.DataProviderDemo - The user gets into the required practice page
+16:47:48.318 [main] INFO  Sample.DataProviderDemo - The user clicks on a new window
+16:47:48.345 [main] INFO  Sample.DataProviderDemo - The user gets the required window handles
+16:47:49.382 [main] INFO  Sample.DataProviderDemo - The user switches to the new window CDwindow-31EA3EDF22C812CC2BF9E602040128E2
+16:47:49.437 [main] INFO  Sample.DataProviderDemo - Closing the original window
+16:47:49.465 [main] INFO  Sample.DataProviderDemo - Switching back to the original window CDwindow-D44BD2D823361D5799CA3BDE1D71A850
+16:47:50.153 [main] INFO  Sample.DataProviderDemo - The driver has been quit

@@ -1,49 +1,17 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testng-results skipped="0" failed="0" ignored="0" total="2" passed="2">
+<testng-results skipped="0" failed="0" ignored="0" total="1" passed="1">
   <reporter-output>
   </reporter-output>
-  <suite name="Suite1" duration-ms="594" started-at="2020-03-17T05:24:13Z" finished-at="2020-03-17T05:24:14Z">
+  <suite name="Suite1" duration-ms="25797" started-at="2020-04-05T11:17:24Z" finished-at="2020-04-05T11:17:50Z">
     <groups>
     </groups>
-    <test name="Nopackage" duration-ms="594" started-at="2020-03-17T05:24:13Z" finished-at="2020-03-17T05:24:14Z">
-      <class name="Sample.DataProviderDemo">
-        <test-method status="PASS" signature="EnterData()[pri:0, instance:Sample.DataProviderDemo@77847718]" name="EnterData" is-config="true" duration-ms="552" started-at="2020-03-17T05:24:13Z" finished-at="2020-03-17T05:24:14Z">
+    <test name="Nopackage" duration-ms="25797" started-at="2020-04-05T11:17:24Z" finished-at="2020-04-05T11:17:50Z">
+      <class name="Sample.SwitchTab">
+        <test-method status="PASS" signature="switchTab()[pri:0, instance:Sample.SwitchTab@1aafa419]" name="switchTab" duration-ms="25773" started-at="2020-04-05T11:17:24Z" finished-at="2020-04-05T11:17:50Z">
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- EnterData -->
-        <test-method status="PASS" signature="run(java.lang.String, java.lang.String)[pri:0, instance:Sample.DataProviderDemo@77847718]" name="run" duration-ms="0" started-at="2020-03-17T05:24:14Z" data-provider="data" finished-at="2020-03-17T05:24:14Z">
-          <params>
-            <param index="0">
-              <value>
-                <![CDATA[Sample11]]>
-              </value>
-            </param>
-            <param index="1">
-              <value>
-                <![CDATA[Sample12]]>
-              </value>
-            </param>
-          </params>
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- run -->
-        <test-method status="PASS" signature="run(java.lang.String, java.lang.String)[pri:0, instance:Sample.DataProviderDemo@77847718]" name="run" duration-ms="10" started-at="2020-03-17T05:24:14Z" data-provider="data" finished-at="2020-03-17T05:24:14Z">
-          <params>
-            <param index="0">
-              <value>
-                <![CDATA[Sample21]]>
-              </value>
-            </param>
-            <param index="1">
-              <value>
-                <![CDATA[Sample22]]>
-              </value>
-            </param>
-          </params>
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- run -->
-      </class> <!-- Sample.DataProviderDemo -->
+        </test-method> <!-- switchTab -->
+      </class> <!-- Sample.SwitchTab -->
     </test> <!-- Nopackage -->
   </suite> <!-- Suite1 -->
 </testng-results>

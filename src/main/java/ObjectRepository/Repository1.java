@@ -41,5 +41,15 @@ public class Repository1 extends TestInitialization{
 	
     @FindBy(xpath = "//input[@id='checkBoxOption1']")
     public static WebElement checkbox;
+    
+    //Clicking to open a new Window
+   
+    @FindBy(xpath = "//button[@id='openwindow']")
+    public static WebElement newWindow;
+    
+    //Clicking to open a new tab
+    
+    @FindBy(xpath = "//a[@id='opentab']")
+    public static WebElement newtab;
 
 }

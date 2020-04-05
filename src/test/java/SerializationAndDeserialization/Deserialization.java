@@ -5,6 +5,8 @@ import java.util.ArrayList;
 import java.util.Arrays;
 import java.util.List;
 
+import org.testng.Assert;
+
 import io.restassured.parsing.Parser;
 import io.restassured.path.json.JsonPath;
 import io.restassured.response.Response;
@@ -17,7 +19,7 @@ public class Deserialization {
 
 	public static void main(String[] args) throws InterruptedException {
 		// TODO Auto-generated method stub
-
+		 String[] courseTitles= { "Selenium Webdriver Java","Cypress","Protractor"};
 		 System.setProperty("webdriver.chrome.driver", "C://chromedriver.exe");
 		//WebDriver driver= new ChromeDriver();
 		//driver.get("https://rahulshettyacademy.com/AutomationPractice/");
@@ -29,7 +31,7 @@ public class Deserialization {
 		driver.findElement(By.cssSelector("[type='password']")).sendKeys("vxcvd");
 		driver.findElement(By.cssSelector("[type='password']")).sendKeys(Keys.ENTER);
 		Thread.sleep(5000); */
-		String url= "https://rahulshettyacademy.com/getCourse.php?state=verifyfjdsshttps%3A%2F%2Fwww.bing.com%2F%3Fpc%3DCOSP&code=4%2FyAHYjVWRkZdNmkecwxufSTtgMCbeWdSaWemQNVMfmfhD7gelmaQvEbMS0ySu3idFmZBVX1P64V8KMp2OVIek_zU&scope=email+https%3A%2F%2Fwww.googleapis.com%2Fauth%2Fuserinfo.email+openid&authuser=0&prompt=consent";
+		String url= "https://rahulshettyacademy.com/getCourse.php?state=verifyfjdss&code=4%2FyQGleAdtUZiYjftNiyA3S1Cc5smxbEaU3abDRJ-n5M14Zj00EBBkQ7r5_reotbKpYdcm3yKtQpyz4qI8RuUPCn8&scope=email+https%3A%2F%2Fwww.googleapis.com%2Fauth%2Fuserinfo.email+openid&authuser=0&prompt=none#";
 		System.out.println(url);
 		String partialcode=url.split("code=")[1];
 		String code=partialcode.split("&scope")[0];
@@ -61,13 +63,38 @@ public class Deserialization {
 		 System.out.println(accessToken);
 		    
 		    
-		String r2 =     given().contentType("application/json").
-				        queryParams("access_token", accessToken).expect().defaultParser(Parser.JSON)
-				       .when()
-                       .get("https://rahulshettyacademy.com/getCourse.php")
-		               .asString();
-		
-		System.out.println(r2);
+		 GetCourse gc = given().queryParam("access_token", accessToken).expect().defaultParser(Parser.JSON)
+					    .when()
+					    .get("https://rahulshettyacademy.com/getCourse.php").as(GetCourse.class);
+					
+					System.out.println(gc.getLinkedIn());
+					System.out.println(gc.getInstructor());
+					System.out.println(gc.getCourses().getApi().get(1).getCourseTitle());
+					
+					
+					List<Api> apiCourses=gc.getCourses().getApi();
+					for(int i=0;i<apiCourses.size();i++)
+					{
+						if(apiCourses.get(i).getCourseTitle().equalsIgnoreCase("SoapUI Webservices testing"))
+								{
+							System.out.println(apiCourses.get(i).getPrice());
+								}
+					}
+					
+					//Get the course names of WebAutomation
+					ArrayList<String> a= new ArrayList<String>();
+					
+					
+					List<pojo.WebAutomation> w=gc.getCourses().getWebAutomation();
+					
+					for(int j=0;j<w.size();j++)
+					{
+						a.add(w.get(j).getCourseTitle());
+					}
+					
+					List<String> expectedList=	Arrays.asList(courseTitles);
+					
+					Assert.assertTrue(a.equals(expectedList));
 
 	
 	

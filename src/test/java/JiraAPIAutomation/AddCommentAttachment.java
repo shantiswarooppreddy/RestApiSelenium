@@ -69,7 +69,7 @@ public class AddCommentAttachment {
 		    System.out.println(message);
 		    Assert.assertEquals(message, expectedMessage);
 		 }
-		}
-		}
+	    }
+  }
 
 }
