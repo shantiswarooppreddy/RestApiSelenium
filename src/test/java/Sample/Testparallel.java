@@ -14,10 +14,10 @@ public class Testparallel {
   
     	public static void main(String[] args) throws MalformedURLException {
     		
+    		//Setting the required Desired Capabilities
     		DesiredCapabilities dc= new DesiredCapabilities();
     		dc.setBrowserName("chrome");
     		dc.setPlatform(Platform.WINDOWS);
-    		//dc.se
 
     		//Webdriver driver=new ChromeDriver();
     		WebDriver driver= new RemoteWebDriver(new URL("http://localhost:8081/wd/hub"),dc);
