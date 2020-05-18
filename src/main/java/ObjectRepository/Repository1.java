@@ -51,5 +51,13 @@ public class Repository1 extends TestInitialization{
     
     @FindBy(xpath = "//a[@id='opentab']")
     public static WebElement newtab;
+    
+    //Clicking on the Alert Button
+    @FindBy(xpath = "//input[@id='alertbtn']")
+    public static WebElement Alert;
+    
+    //Clicking on the COnfirm Button
+    @FindBy(xpath = "//input[@id='confirmbtn']")
+    public static WebElement ConfirmAlert;
 
 }
