@@ -10,7 +10,7 @@ public class TestInitialization {
 	public static void TestInitialization1()
 	{
 		System.out.println(System.getProperty("user.dir"));
-		System.setProperty("webdriver.chrome.driver", System.getProperty("user.dir") + "\\chromedriver.exe");
+		System.setProperty("webdriver.chrome.driver", System.getProperty("user.dir") + "\\chromedriver (2).exe");
 		driver = new ChromeDriver();
 	}
 

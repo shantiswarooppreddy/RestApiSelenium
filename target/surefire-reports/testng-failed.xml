@@ -6,11 +6,11 @@
   </listeners>
   <test thread-count="5" verbose="0" name="Nopackage(failed)">
     <classes>
-      <class name="Sample.SwitchWindow">
+      <class name="Sample.Alert">
         <methods>
-          <include name="switchWindow"/>
+          <include name="alert"/>
         </methods>
-      </class> <!-- Sample.SwitchWindow -->
+      </class> <!-- Sample.Alert -->
     </classes>
   </test> <!-- Nopackage(failed) -->
 </suite> <!-- Failed suite [Suite1] -->
