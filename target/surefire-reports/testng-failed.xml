@@ -6,11 +6,11 @@
   </listeners>
   <test thread-count="5" verbose="0" name="Nopackage(failed)">
     <classes>
-      <class name="Sample.Alert">
+      <class name="Sample.WebTable">
         <methods>
-          <include name="alert"/>
+          <include name="webtable"/>
         </methods>
-      </class> <!-- Sample.Alert -->
+      </class> <!-- Sample.WebTable -->
     </classes>
   </test> <!-- Nopackage(failed) -->
 </suite> <!-- Failed suite [Suite1] -->

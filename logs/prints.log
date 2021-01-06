@@ -1,20 +1,6 @@
-11:46:43.303 [main] INFO  Sample.Alert - The user has open the required browser
-11:46:47.389 [main] INFO  Sample.Alert - The user gets into the required practice page
-11:46:47.893 [main] INFO  Sample.Alert - This user has generated the Alert
-11:46:47.921 [main] INFO  Sample.Alert - The user has handled the required Alert
-11:46:48.038 [main] INFO  Sample.Alert - The user generated the confirmation Alert
-11:46:48.048 [main] INFO  Sample.Alert - The Alert has been accpeted
-11:46:48.135 [main] INFO  Sample.Alert - The user has generated the confirmation Alert again
-11:46:48.142 [main] INFO  Sample.Alert - The given text has been compared
-11:46:48.159 [main] INFO  Sample.Alert - The Alert has been dismissed
-11:46:48.845 [main] INFO  Sample.Alert - The user chose quit the driver
-11:47:12.107 [main] INFO  Sample.Alert - The user has open the required browser
-11:47:15.677 [main] INFO  Sample.Alert - The user gets into the required practice page
-11:47:16.132 [main] INFO  Sample.Alert - This user has generated the Alert
-11:47:16.144 [main] INFO  Sample.Alert - The user has handled the required Alert
-11:47:16.280 [main] INFO  Sample.Alert - The user generated the confirmation Alert
-11:47:16.291 [main] INFO  Sample.Alert - The Alert has been accpeted
-11:47:16.395 [main] INFO  Sample.Alert - The user has generated the confirmation Alert again
-11:47:16.402 [main] INFO  Sample.Alert - The given text has been compared
-11:47:16.411 [main] INFO  Sample.Alert - The Alert has been dismissed
-11:47:17.077 [main] INFO  Sample.Alert - The user chose quit the driver
+12:31:48.604 [main] INFO  Sample.WebTable - The user has open the required browser
+12:31:52.228 [main] INFO  Sample.WebTable - The user gets into the required practice page
+12:37:17.501 [main] INFO  Sample.WebTable - The user has open the required browser
+12:37:25.552 [main] INFO  Sample.WebTable - The user gets into the required practice page
+12:37:26.059 [main] INFO  Sample.WebTable - The rate of the course is compared accordingly
+12:37:29.028 [main] INFO  Sample.WebTable - The user chose quit the driver

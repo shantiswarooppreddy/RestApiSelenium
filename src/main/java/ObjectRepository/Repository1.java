@@ -59,5 +59,34 @@ public class Repository1 extends TestInitialization{
     //Clicking on the COnfirm Button
     @FindBy(xpath = "//input[@id='confirmbtn']")
     public static WebElement ConfirmAlert;
-
+    
+    //Show Button
+    @FindBy(xpath = "//input[@id='show-textbox']")
+    public static WebElement ShowButton;
+    
+    //Hide Button
+    @FindBy(xpath = "//input[@id='hide-textbox']")
+    public static WebElement HideButton;
+    
+    //Hide-Show Element
+    @FindBy(xpath = "//input[@id='displayed-text']")
+    public static WebElement displayBox;
+    
+    //Fixed Header Element
+    @FindBy(xpath = "//table/thead/tr/th")
+    public static WebElement tableHeader;
+    
+    //Mouse Hover Element
+    @FindBy(xpath = "//*[@id='mousehover']")
+    public static WebElement mouseHover;
+    
+    //Frame Element
+    @FindBy(xpath = "//iframe")
+    public static WebElement iFrame;
+    
+    //Element inside the Frame
+    @FindBy(xpath = "//*[text()='Home']")
+    public static WebElement HomeElement;
+    
+   
 }
