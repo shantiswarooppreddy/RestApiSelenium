@@ -1,6 +1,7 @@
-12:31:48.604 [main] INFO  Sample.WebTable - The user has open the required browser
-12:31:52.228 [main] INFO  Sample.WebTable - The user gets into the required practice page
-12:37:17.501 [main] INFO  Sample.WebTable - The user has open the required browser
-12:37:25.552 [main] INFO  Sample.WebTable - The user gets into the required practice page
-12:37:26.059 [main] INFO  Sample.WebTable - The rate of the course is compared accordingly
-12:37:29.028 [main] INFO  Sample.WebTable - The user chose quit the driver
+11:35:31.399 [main] INFO  Sample.WebTable - The user has open the required browser
+11:35:45.576 [main] INFO  Sample.WebTable - The user gets into the required practice page
+11:35:48.984 [main] INFO  Sample.WebTable - The user hides the button
+11:35:49.173 [main] INFO  Sample.WebTable - The user verifies that the button is Hidden
+11:35:49.266 [main] INFO  Sample.WebTable - The user shows the button
+11:35:49.324 [main] INFO  Sample.WebTable - The user verifies that the button is shown
+11:35:50.169 [main] INFO  Sample.WebTable - The user chose quit the driver
