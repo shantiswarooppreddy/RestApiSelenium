@@ -1,7 +1,7 @@
-11:35:31.399 [main] INFO  Sample.WebTable - The user has open the required browser
-11:35:45.576 [main] INFO  Sample.WebTable - The user gets into the required practice page
-11:35:48.984 [main] INFO  Sample.WebTable - The user hides the button
-11:35:49.173 [main] INFO  Sample.WebTable - The user verifies that the button is Hidden
-11:35:49.266 [main] INFO  Sample.WebTable - The user shows the button
-11:35:49.324 [main] INFO  Sample.WebTable - The user verifies that the button is shown
-11:35:50.169 [main] INFO  Sample.WebTable - The user chose quit the driver
+11:45:57.039 [main] INFO  Sample.WebTable - The user has open the required browser
+11:46:09.638 [main] INFO  Sample.WebTable - The user gets into the required practice page
+11:46:10.888 [main] INFO  Sample.WebTable - The user hides the button
+11:46:12.970 [main] INFO  Sample.WebTable - The user verifies that the button is Hidden
+11:46:13.072 [main] INFO  Sample.WebTable - The user shows the button
+11:46:13.123 [main] INFO  Sample.WebTable - The user verifies that the button is shown
+11:46:14.083 [main] INFO  Sample.WebTable - The user chose quit the driver
