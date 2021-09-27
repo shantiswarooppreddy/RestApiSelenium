@@ -1,17 +1,70 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testng-results skipped="0" failed="0" ignored="0" total="1" passed="1">
+<testng-results skipped="0" failed="1" ignored="0" total="12" passed="11">
   <reporter-output>
   </reporter-output>
-  <suite name="Suite1" duration-ms="29619" started-at="2021-03-31T06:15:44Z" finished-at="2021-03-31T06:16:14Z">
+  <suite name="Suite1" duration-ms="1544" started-at="2021-09-25T06:06:18Z" finished-at="2021-09-25T06:06:20Z">
     <groups>
     </groups>
-    <test name="Nopackage" duration-ms="29619" started-at="2021-03-31T06:15:44Z" finished-at="2021-03-31T06:16:14Z">
-      <class name="Sample.HideShow">
-        <test-method status="PASS" signature="hideshow()[pri:0, instance:Sample.HideShow@1aafa419]" name="hideshow" duration-ms="29587" started-at="2021-03-31T06:15:44Z" finished-at="2021-03-31T06:16:14Z">
+    <test name="Nopackage" duration-ms="1544" started-at="2021-09-25T06:06:18Z" finished-at="2021-09-25T06:06:20Z">
+      <class name="Sample.TestCase1">
+        <test-method status="PASS" signature="function1()[pri:0, instance:Sample.TestCase1@2669b199]" name="function1" duration-ms="16" started-at="2021-09-25T06:06:18Z" finished-at="2021-09-25T06:06:18Z">
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- hideshow -->
-      </class> <!-- Sample.HideShow -->
+        </test-method> <!-- function1 -->
+        <test-method status="PASS" signature="function1()[pri:0, instance:Sample.TestCase1@2669b199]" name="function1" duration-ms="0" started-at="2021-09-25T06:06:18Z" finished-at="2021-09-25T06:06:18Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- function1 -->
+        <test-method status="FAIL" signature="function2()[pri:0, instance:Sample.TestCase1@2669b199]" name="function2" duration-ms="1466" started-at="2021-09-25T06:06:18Z" finished-at="2021-09-25T06:06:20Z">
+          <exception class="org.testng.internal.thread.ThreadTimeoutException">
+            <message>
+              <![CDATA[Method Sample.TestCase1.function2() didn't finish within the time-out 1000]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[org.testng.internal.thread.ThreadTimeoutException: Method Sample.TestCase1.function2() didn't finish within the time-out 1000
+]]>
+            </full-stacktrace>
+          </exception> <!-- org.testng.internal.thread.ThreadTimeoutException -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- function2 -->
+        <test-method status="PASS" signature="function1()[pri:0, instance:Sample.TestCase1@2669b199]" name="function1" duration-ms="0" started-at="2021-09-25T06:06:18Z" finished-at="2021-09-25T06:06:18Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- function1 -->
+        <test-method status="PASS" signature="function1()[pri:0, instance:Sample.TestCase1@2669b199]" name="function1" duration-ms="0" started-at="2021-09-25T06:06:18Z" finished-at="2021-09-25T06:06:18Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- function1 -->
+        <test-method status="PASS" signature="function1()[pri:0, instance:Sample.TestCase1@2669b199]" name="function1" duration-ms="0" started-at="2021-09-25T06:06:18Z" finished-at="2021-09-25T06:06:18Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- function1 -->
+        <test-method status="PASS" signature="function1()[pri:0, instance:Sample.TestCase1@2669b199]" name="function1" duration-ms="0" started-at="2021-09-25T06:06:18Z" finished-at="2021-09-25T06:06:18Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- function1 -->
+        <test-method status="PASS" signature="function1()[pri:0, instance:Sample.TestCase1@2669b199]" name="function1" duration-ms="0" started-at="2021-09-25T06:06:18Z" finished-at="2021-09-25T06:06:18Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- function1 -->
+        <test-method status="PASS" signature="function1()[pri:0, instance:Sample.TestCase1@2669b199]" name="function1" duration-ms="0" started-at="2021-09-25T06:06:18Z" finished-at="2021-09-25T06:06:18Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- function1 -->
+        <test-method status="PASS" signature="function1()[pri:0, instance:Sample.TestCase1@2669b199]" name="function1" duration-ms="0" started-at="2021-09-25T06:06:18Z" finished-at="2021-09-25T06:06:18Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- function1 -->
+        <test-method status="PASS" signature="function1()[pri:0, instance:Sample.TestCase1@2669b199]" name="function1" duration-ms="0" started-at="2021-09-25T06:06:18Z" finished-at="2021-09-25T06:06:18Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- function1 -->
+        <test-method status="PASS" signature="function3()[pri:0, instance:Sample.TestCase1@2669b199]" name="function3" duration-ms="0" started-at="2021-09-25T06:06:20Z" finished-at="2021-09-25T06:06:20Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- function3 -->
+      </class> <!-- Sample.TestCase1 -->
     </test> <!-- Nopackage -->
   </suite> <!-- Suite1 -->
 </testng-results>

@@ -6,7 +6,7 @@
   </listeners>
   <test name="Nopackage" >
     <classes>
-       <class name="Sample.Alert" />
+       <class name="Sample.TestCase1" />
     </classes>
   </test>
 </suite>

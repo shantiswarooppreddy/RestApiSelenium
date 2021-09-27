@@ -1,7 +1,20 @@
-11:45:57.039 [main] INFO  Sample.WebTable - The user has open the required browser
-11:46:09.638 [main] INFO  Sample.WebTable - The user gets into the required practice page
-11:46:10.888 [main] INFO  Sample.WebTable - The user hides the button
-11:46:12.970 [main] INFO  Sample.WebTable - The user verifies that the button is Hidden
-11:46:13.072 [main] INFO  Sample.WebTable - The user shows the button
-11:46:13.123 [main] INFO  Sample.WebTable - The user verifies that the button is shown
-11:46:14.083 [main] INFO  Sample.WebTable - The user chose quit the driver
+22:57:14.227 [main] INFO  Sample.Alert - The user has open the required browser
+22:57:20.094 [main] INFO  Sample.Alert - The user gets into the required practice page
+22:57:20.585 [main] INFO  Sample.Alert - This user has generated the Alert
+22:57:20.596 [main] INFO  Sample.Alert - The user has handled the required Alert
+22:57:20.712 [main] INFO  Sample.Alert - The user generated the confirmation Alert
+22:57:20.721 [main] INFO  Sample.Alert - The Alert has been accpeted
+22:57:20.767 [main] INFO  Sample.Alert - The user has generated the confirmation Alert again
+22:57:20.778 [main] INFO  Sample.Alert - The given text has been compared
+22:57:20.788 [main] INFO  Sample.Alert - The Alert has been dismissed
+22:57:21.386 [main] INFO  Sample.Alert - The user chose quit the driver
+22:58:55.460 [main] INFO  Sample.Alert - The user has open the required browser
+22:59:02.457 [main] INFO  Sample.Alert - The user gets into the required practice page
+22:59:02.836 [main] INFO  Sample.Alert - This user has generated the Alert
+22:59:02.849 [main] INFO  Sample.Alert - The user has handled the required Alert
+22:59:02.930 [main] INFO  Sample.Alert - The user generated the confirmation Alert
+22:59:02.938 [main] INFO  Sample.Alert - The Alert has been accpeted
+22:59:02.993 [main] INFO  Sample.Alert - The user has generated the confirmation Alert again
+22:59:03.003 [main] INFO  Sample.Alert - The given text has been compared
+22:59:03.012 [main] INFO  Sample.Alert - The Alert has been dismissed
+22:59:03.584 [main] INFO  Sample.Alert - The user chose quit the driver
