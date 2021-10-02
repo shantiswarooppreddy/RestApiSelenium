@@ -24,7 +24,7 @@ public class DropDown extends TestInitialization {
 				driver.get("https://rahulshettyacademy.com/AutomationPractice/");
 				logger.info("The user gets into the required practice page");
 				
-				//Initializing the required Dropdown
+				//Initializing the required Drop down
 				Select dropDown = new Select(Repository1.dropdown);
 				logger.info("The dropdown has been initialized");
 				
