@@ -88,5 +88,11 @@ public class Repository1 extends TestInitialization{
     @FindBy(xpath = "//*[text()='Home']")
     public static WebElement HomeElement;
     
-   
+    //Clicking on the Top link
+    @FindBy(xpath = "//a[@href='#top']")
+    public static WebElement Top;
+    
+    //Clicking on the link
+    @FindBy(css = ".range-slider__wrap")
+    public static WebElement Slider;
 }

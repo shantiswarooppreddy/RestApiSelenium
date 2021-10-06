@@ -1,20 +1,77 @@
-22:57:14.227 [main] INFO  Sample.Alert - The user has open the required browser
-22:57:20.094 [main] INFO  Sample.Alert - The user gets into the required practice page
-22:57:20.585 [main] INFO  Sample.Alert - This user has generated the Alert
-22:57:20.596 [main] INFO  Sample.Alert - The user has handled the required Alert
-22:57:20.712 [main] INFO  Sample.Alert - The user generated the confirmation Alert
-22:57:20.721 [main] INFO  Sample.Alert - The Alert has been accpeted
-22:57:20.767 [main] INFO  Sample.Alert - The user has generated the confirmation Alert again
-22:57:20.778 [main] INFO  Sample.Alert - The given text has been compared
-22:57:20.788 [main] INFO  Sample.Alert - The Alert has been dismissed
-22:57:21.386 [main] INFO  Sample.Alert - The user chose quit the driver
-22:58:55.460 [main] INFO  Sample.Alert - The user has open the required browser
-22:59:02.457 [main] INFO  Sample.Alert - The user gets into the required practice page
-22:59:02.836 [main] INFO  Sample.Alert - This user has generated the Alert
-22:59:02.849 [main] INFO  Sample.Alert - The user has handled the required Alert
-22:59:02.930 [main] INFO  Sample.Alert - The user generated the confirmation Alert
-22:59:02.938 [main] INFO  Sample.Alert - The Alert has been accpeted
-22:59:02.993 [main] INFO  Sample.Alert - The user has generated the confirmation Alert again
-22:59:03.003 [main] INFO  Sample.Alert - The given text has been compared
-22:59:03.012 [main] INFO  Sample.Alert - The Alert has been dismissed
-22:59:03.584 [main] INFO  Sample.Alert - The user chose quit the driver
+07:27:49.628 [main] DEBUG Sample.SuggestionClass - The user has open the required browser
+07:28:27.124 [main] DEBUG Sample.SuggestionClass - The user gets into the required practice page
+07:28:27.630 [main] DEBUG Sample.SuggestionClass - The size of the window has been maximized
+07:28:27.635 [main] DEBUG Sample.SuggestionClass - The actions class has been initialized
+07:28:28.793 [main] DEBUG Sample.SuggestionClass - The user has decided to go back to the top
+07:28:29.595 [main] DEBUG Sample.SuggestionClass - Quit the browser
+08:08:45.760 [main] INFO  Sample.ActionClass - The user has open the required browser
+08:09:08.107 [main] INFO  Sample.ActionClass - Opening the required practice page in toolsqa
+08:41:30.695 [main] INFO  Sample.ActionClass - The user has open the required browser
+08:42:01.940 [main] INFO  Sample.ActionClass - Opening the required practice page in toolsqa
+08:43:53.593 [main] INFO  Sample.ActionClass - The user has open the required browser
+08:44:41.087 [main] INFO  Sample.ActionClass - Opening the required practice page in toolsqa
+08:44:41.496 [main] INFO  Sample.ActionClass - Got the initial width
+08:44:41.512 [main] INFO  Sample.ActionClass - Initializing the driver class
+08:49:57.592 [main] INFO  Sample.ActionClass - The user has open the required browser
+08:50:31.637 [main] INFO  Sample.ActionClass - Opening the required practice page in toolsqa
+08:50:31.674 [main] INFO  Sample.ActionClass - Got the initial width
+08:50:31.677 [main] INFO  Sample.ActionClass - Initializing the driver class
+08:52:47.490 [main] INFO  Sample.ActionClass - The user has open the required browser
+08:53:32.031 [main] INFO  Sample.ActionClass - Opening the required practice page in toolsqa
+08:53:32.062 [main] INFO  Sample.ActionClass - Got the initial width
+08:53:32.066 [main] INFO  Sample.ActionClass - Initializing the driver class
+08:55:25.005 [main] INFO  Sample.ActionClass - The user has open the required browser
+08:56:10.343 [main] INFO  Sample.ActionClass - Opening the required practice page in toolsqa
+08:56:10.382 [main] INFO  Sample.ActionClass - Got the initial width
+08:56:10.387 [main] INFO  Sample.ActionClass - Initializing the driver class
+08:59:50.311 [main] INFO  Sample.ActionClass - The user has open the required browser
+09:00:37.891 [main] INFO  Sample.ActionClass - Opening the required practice page in toolsqa
+09:00:37.929 [main] INFO  Sample.ActionClass - Got the initial width
+09:00:37.932 [main] INFO  Sample.ActionClass - Initializing the driver class
+09:09:38.073 [main] INFO  Sample.ActionClass - The user has open the required browser
+09:09:56.096 [main] INFO  Sample.ActionClass - Opening the required practice page in toolsqa
+09:09:56.137 [main] INFO  Sample.ActionClass - Got the initial width
+09:09:56.141 [main] INFO  Sample.ActionClass - Initializing the driver class
+09:12:54.758 [main] INFO  Sample.ActionClass - The user has open the required browser
+09:13:15.336 [main] INFO  Sample.ActionClass - Opening the required practice page in toolsqa
+09:13:15.369 [main] INFO  Sample.ActionClass - Got the initial width
+09:13:15.371 [main] INFO  Sample.ActionClass - Initializing the driver class
+09:20:30.918 [main] INFO  Sample.ActionClass - The user has open the required browser
+09:20:57.676 [main] INFO  Sample.ActionClass - Opening the required practice page in toolsqa
+09:20:57.712 [main] INFO  Sample.ActionClass - Got the initial width
+09:20:57.716 [main] INFO  Sample.ActionClass - Initializing the driver class
+09:20:58.095 [main] INFO  Sample.ActionClass - Slided to the required position
+09:20:59.086 [main] INFO  Sample.ActionClass - The user chose quit the driver
+09:21:45.546 [main] INFO  Sample.ActionClass - The user has open the required browser
+09:22:14.223 [main] INFO  Sample.ActionClass - Opening the required practice page in toolsqa
+09:22:14.255 [main] INFO  Sample.ActionClass - Got the initial width
+09:22:14.259 [main] INFO  Sample.ActionClass - Initializing the driver class
+09:22:14.689 [main] INFO  Sample.ActionClass - Slided to the required position
+09:22:15.424 [main] INFO  Sample.ActionClass - The user chose quit the driver
+09:25:06.159 [main] INFO  Sample.ActionClass - The user has open the required browser
+09:25:25.167 [main] INFO  Sample.ActionClass - Opening the required practice page in toolsqa
+09:25:25.436 [main] INFO  Sample.ActionClass - Got the initial width
+09:25:25.439 [main] INFO  Sample.ActionClass - Initializing the driver class
+09:25:25.840 [main] INFO  Sample.ActionClass - Slided to the required position
+09:25:26.766 [main] INFO  Sample.ActionClass - The user chose quit the driver
+09:33:02.459 [main] INFO  Sample.ActionClass - The user has open the required browser
+09:33:20.609 [main] INFO  Sample.ActionClass - Opening the required practice page in toolsqa
+09:33:20.754 [main] INFO  Sample.ActionClass - The window has been maximized
+09:33:20.782 [main] INFO  Sample.ActionClass - Got the initial width
+09:33:20.782 [main] INFO  Sample.ActionClass - Initializing the driver class
+09:33:21.172 [main] INFO  Sample.ActionClass - Slided to the required position
+09:33:26.840 [main] INFO  Sample.ActionClass - The user chose quit the driver
+09:35:38.607 [main] INFO  Sample.ActionClass - The user has open the required browser
+09:36:14.370 [main] INFO  Sample.ActionClass - Opening the required practice page in toolsqa
+09:36:14.532 [main] INFO  Sample.ActionClass - The window has been maximized
+09:36:14.562 [main] INFO  Sample.ActionClass - Got the initial width
+09:36:14.565 [main] INFO  Sample.ActionClass - Initializing the driver class
+09:36:14.946 [main] INFO  Sample.ActionClass - Slided to the required position
+09:36:20.585 [main] INFO  Sample.ActionClass - The user chose quit the driver
+09:41:52.903 [main] INFO  Sample.ActionClass - The user has open the required browser
+09:42:13.601 [main] INFO  Sample.ActionClass - Opening the required practice page in toolsqa
+09:42:13.748 [main] INFO  Sample.ActionClass - The window has been maximized
+09:42:13.779 [main] INFO  Sample.ActionClass - Got the initial width
+09:42:13.783 [main] INFO  Sample.ActionClass - Initializing the driver class
+09:42:14.147 [main] INFO  Sample.ActionClass - Slided to the required position
+09:42:19.809 [main] INFO  Sample.ActionClass - The user chose quit the driver
