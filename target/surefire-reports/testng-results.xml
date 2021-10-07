@@ -2,16 +2,16 @@
 <testng-results skipped="0" failed="0" ignored="0" total="1" passed="1">
   <reporter-output>
   </reporter-output>
-  <suite name="Suite1" duration-ms="29387" started-at="2021-10-06T04:11:50Z" finished-at="2021-10-06T04:12:19Z">
+  <suite name="Suite1" duration-ms="51990" started-at="2021-10-07T18:03:35Z" finished-at="2021-10-07T18:04:27Z">
     <groups>
     </groups>
-    <test name="Nopackage" duration-ms="29387" started-at="2021-10-06T04:11:50Z" finished-at="2021-10-06T04:12:19Z">
-      <class name="Sample.ActionClass">
-        <test-method status="PASS" signature="slider()[pri:0, instance:Sample.ActionClass@1aafa419]" name="slider" duration-ms="29356" started-at="2021-10-06T04:11:50Z" finished-at="2021-10-06T04:12:19Z">
+    <test name="Nopackage" duration-ms="51990" started-at="2021-10-07T18:03:35Z" finished-at="2021-10-07T18:04:27Z">
+      <class name="Sample.Waits">
+        <test-method status="PASS" signature="waitFunction()[pri:0, instance:Sample.Waits@47eaca72]" name="waitFunction" duration-ms="51957" started-at="2021-10-07T18:03:35Z" finished-at="2021-10-07T18:04:27Z">
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- slider -->
-      </class> <!-- Sample.ActionClass -->
+        </test-method> <!-- waitFunction -->
+      </class> <!-- Sample.Waits -->
     </test> <!-- Nopackage -->
   </suite> <!-- Suite1 -->
 </testng-results>

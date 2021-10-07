@@ -44,13 +44,6 @@ static Logger logger = LogManager.getLogger(ActionClass.class.getName());
 				.perform();
 				logger.info("Slided to the required position");
 				
-				try {
-					Thread.sleep(5000);
-				} catch (InterruptedException e) {
-					// TODO Auto-generated catch block
-					e.printStackTrace();
-				}
-				
 				//Quit the driver after execution
 				driver.quit();
 				logger.info("The user chose quit the driver");

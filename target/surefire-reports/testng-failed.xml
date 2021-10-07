@@ -6,11 +6,11 @@
   </listeners>
   <test thread-count="5" verbose="0" name="Nopackage(failed)">
     <classes>
-      <class name="Sample.ActionClass">
+      <class name="Sample.Waits">
         <methods>
-          <include name="slider"/>
+          <include name="waitFunction"/>
         </methods>
-      </class> <!-- Sample.ActionClass -->
+      </class> <!-- Sample.Waits -->
     </classes>
   </test> <!-- Nopackage(failed) -->
 </suite> <!-- Failed suite [Suite1] -->

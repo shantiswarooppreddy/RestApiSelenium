@@ -95,4 +95,16 @@ public class Repository1 extends TestInitialization{
     //Clicking on the link
     @FindBy(css = ".range-slider__wrap")
     public static WebElement Slider;
+    
+    //Enabled Button
+    @FindBy(id = "enableAfter")
+    public static WebElement enableAfter;
+    
+    //Color Change
+    @FindBy(id = "colorChange")
+    public static WebElement colorChange;
+    
+    //Visible After
+    @FindBy(id = "visibleAfter")
+    public static WebElement visibleAfter;
 }
