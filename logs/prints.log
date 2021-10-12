@@ -1,36 +1,18 @@
-22:36:40.188 [main] INFO  Sample.Waits - The user has open the required browser
-22:36:57.962 [main] INFO  Sample.Waits - Opening the required practice page in toolsqa
-22:36:58.135 [main] INFO  Sample.Waits - The window has been maximized
-22:36:58.207 [main] INFO  Sample.Waits - Waiting for the button to get enabled
-22:42:43.131 [main] INFO  Sample.Waits - The user has open the required browser
-22:43:21.311 [main] INFO  Sample.Waits - Opening the required practice page in toolsqa
-22:43:21.445 [main] INFO  Sample.Waits - The window has been maximized
-22:43:28.531 [main] INFO  Sample.Waits - The explicit wait has been declared
-22:43:28.562 [main] INFO  Sample.Waits - The button is now enabled
-22:43:58.805 [main] INFO  Sample.Waits - The user has refreshed the page
-22:45:10.251 [main] INFO  Sample.Waits - The user has open the required browser
-22:45:50.497 [main] INFO  Sample.Waits - Opening the required practice page in toolsqa
-22:45:50.646 [main] INFO  Sample.Waits - The window has been maximized
-22:45:53.855 [main] INFO  Sample.Waits - The explicit wait has been declared
-22:45:53.877 [main] INFO  Sample.Waits - The button is now enabled
-22:45:54.843 [main] INFO  Sample.Waits - The user has refreshed the page
-22:48:41.969 [main] INFO  Sample.Waits - The user has open the required browser
-22:49:26.192 [main] INFO  Sample.Waits - Opening the required practice page in toolsqa
-22:49:26.382 [main] INFO  Sample.Waits - The window has been maximized
-22:49:26.543 [main] INFO  Sample.Waits - The explicit wait has been declared
-22:49:26.588 [main] INFO  Sample.Waits - The button is now enabled
-22:50:04.966 [main] INFO  Sample.Waits - The user has refreshed the page null
-22:54:22.206 [main] INFO  Sample.Waits - The user has open the required browser
-22:55:05.682 [main] INFO  Sample.Waits - Opening the required practice page in toolsqa
-22:55:05.807 [main] INFO  Sample.Waits - The window has been maximized
-22:55:05.942 [main] INFO  Sample.Waits - The explicit wait has been declared
-22:55:05.974 [main] INFO  Sample.Waits - The button is now enabled
-22:55:32.125 [main] INFO  Sample.Waits - The user has refreshed the page null
-23:33:38.229 [main] INFO  Sample.Waits - The user has open the required browser
-23:34:05.480 [main] INFO  Sample.Waits - Opening the required practice page in toolsqa
-23:34:05.629 [main] INFO  Sample.Waits - The window has been maximized
-23:34:05.935 [main] INFO  Sample.Waits - The explicit wait has been declared
-23:34:05.959 [main] INFO  Sample.Waits - The button is now enabled
-23:34:27.385 [main] INFO  Sample.Waits - The user has refreshed the page
-23:34:27.441 [main] INFO  Sample.Waits - The wait extends till there is visibility
-23:34:27.674 [main] INFO  Sample.Waits - Verified that the element is visible
+09:03:47.339 [main] INFO  Sample.Waits - The user has open the required browser
+09:04:35.933 [main] INFO  Sample.Waits - Opening the required practice page in toolsqa
+09:04:36.534 [main] INFO  Sample.Waits - The window has been maximized
+09:04:42.105 [main] INFO  Sample.Waits - The explicit wait has been declared
+09:04:42.136 [main] INFO  Sample.Waits - The button is now enabled
+09:04:42.245 [main] INFO  Sample.Waits - The user has refreshed the page
+09:05:20.496 [main] INFO  Sample.Waits - The wait extends till there is visibility
+09:05:20.523 [main] INFO  Sample.Waits - Verified that the element is visible
+09:05:20.538 [main] INFO  Sample.Waits - The user has refreshed the page
+09:14:37.238 [main] INFO  Sample.Waits - The user has open the required browser
+09:15:29.966 [main] INFO  Sample.Waits - Opening the required practice page in toolsqa
+09:15:30.095 [main] INFO  Sample.Waits - The window has been maximized
+09:15:30.227 [main] INFO  Sample.Waits - The explicit wait has been declared
+09:15:30.246 [main] INFO  Sample.Waits - The button is now enabled
+09:15:30.251 [main] INFO  Sample.Waits - The user has refreshed the page
+09:16:02.536 [main] INFO  Sample.Waits - The wait extends till there is visibility
+09:16:02.559 [main] INFO  Sample.Waits - Verified that the element is visible
+09:16:02.574 [main] INFO  Sample.Waits - The user has refreshed the page

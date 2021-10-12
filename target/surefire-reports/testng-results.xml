@@ -2,12 +2,12 @@
 <testng-results skipped="0" failed="0" ignored="0" total="1" passed="1">
   <reporter-output>
   </reporter-output>
-  <suite name="Suite1" duration-ms="51990" started-at="2021-10-07T18:03:35Z" finished-at="2021-10-07T18:04:27Z">
+  <suite name="Suite1" duration-ms="118410" started-at="2021-10-11T03:44:27Z" finished-at="2021-10-11T03:46:25Z">
     <groups>
     </groups>
-    <test name="Nopackage" duration-ms="51990" started-at="2021-10-07T18:03:35Z" finished-at="2021-10-07T18:04:27Z">
+    <test name="Nopackage" duration-ms="118410" started-at="2021-10-11T03:44:27Z" finished-at="2021-10-11T03:46:25Z">
       <class name="Sample.Waits">
-        <test-method status="PASS" signature="waitFunction()[pri:0, instance:Sample.Waits@47eaca72]" name="waitFunction" duration-ms="51957" started-at="2021-10-07T18:03:35Z" finished-at="2021-10-07T18:04:27Z">
+        <test-method status="PASS" signature="waitFunction()[pri:0, instance:Sample.Waits@47eaca72]" name="waitFunction" duration-ms="118391" started-at="2021-10-11T03:44:27Z" finished-at="2021-10-11T03:46:25Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- waitFunction -->

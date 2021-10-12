@@ -1,10 +1,16 @@
 package Sample;
 
 import java.util.concurrent.TimeUnit;
+import java.util.function.Function;
+import java.util.function.Predicate;
 
 import org.apache.logging.log4j.LogManager;
 import org.apache.logging.log4j.Logger;
+import org.openqa.selenium.WebDriver;
+import org.openqa.selenium.WebElement;
 import org.openqa.selenium.support.ui.ExpectedConditions;
+import org.openqa.selenium.support.ui.FluentWait;
+import org.openqa.selenium.support.ui.Wait;
 import org.openqa.selenium.support.ui.WebDriverWait;
 import org.testng.Assert;
 import org.testng.annotations.Test;
@@ -51,6 +57,32 @@ public class Waits extends TestInitialization{
 		//Verifying the color changes
 		Assert.assertTrue(Repository1.visibleAfter.isDisplayed());
 		logger.info("Verified that the element is visible");
+		
+		//Refreshing the browser
+		driver.navigate().refresh();
+	    logger.info("The user has refreshed the page");
+		
+	    
+	    //Adding Fluent Wait
+		@SuppressWarnings("deprecation")
+		Wait<WebDriver> fluentwait = new FluentWait<WebDriver>(driver)
+				                           .pollingEvery((long)250, TimeUnit.MILLISECONDS)
+				                           .withTimeout(6, TimeUnit.SECONDS);
+		Function<WebDriver, WebElement> predicate = new Function<WebDriver, WebElement>() {
+			public WebElement apply(WebDriver driver) {
+				WebElement element = null;
+				if(Repository1.colorChange.getCssValue("color").equals("rgba(220, 53, 69, 1)"))
+					element = Repository1.colorChange;
+				System.out.println(Repository1.colorChange.getCssValue("color"));
+				return element;
+			}
+		};
+		fluentwait.until(predicate);
+		logger.info("Adding Fluent Wait");
+		
+		//Quitting the Browser
+		driver.quit();
+		logger.info("The user has quit the browser");
 	}
 
 }
