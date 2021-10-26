@@ -1,18 +1,95 @@
-09:03:47.339 [main] INFO  Sample.Waits - The user has open the required browser
-09:04:35.933 [main] INFO  Sample.Waits - Opening the required practice page in toolsqa
-09:04:36.534 [main] INFO  Sample.Waits - The window has been maximized
-09:04:42.105 [main] INFO  Sample.Waits - The explicit wait has been declared
-09:04:42.136 [main] INFO  Sample.Waits - The button is now enabled
-09:04:42.245 [main] INFO  Sample.Waits - The user has refreshed the page
-09:05:20.496 [main] INFO  Sample.Waits - The wait extends till there is visibility
-09:05:20.523 [main] INFO  Sample.Waits - Verified that the element is visible
-09:05:20.538 [main] INFO  Sample.Waits - The user has refreshed the page
-09:14:37.238 [main] INFO  Sample.Waits - The user has open the required browser
-09:15:29.966 [main] INFO  Sample.Waits - Opening the required practice page in toolsqa
-09:15:30.095 [main] INFO  Sample.Waits - The window has been maximized
-09:15:30.227 [main] INFO  Sample.Waits - The explicit wait has been declared
-09:15:30.246 [main] INFO  Sample.Waits - The button is now enabled
-09:15:30.251 [main] INFO  Sample.Waits - The user has refreshed the page
-09:16:02.536 [main] INFO  Sample.Waits - The wait extends till there is visibility
-09:16:02.559 [main] INFO  Sample.Waits - Verified that the element is visible
-09:16:02.574 [main] INFO  Sample.Waits - The user has refreshed the page
+11:10:24.756 [TestNG-test=Nopackage-1] INFO  Sample.FillingUsingJs - Setting up the browser
+11:10:25.131 [TestNG-test=Nopackage-1] INFO  Sample.FillingUsingJs - Event webdriver browser has been setup
+11:11:16.870 [TestNG-test=Nopackage-1] INFO  Sample.FillingUsingJs - The required browser is launched
+11:11:16.870 [TestNG-test=Nopackage-1] INFO  Sample.FillingUsingJs - The Java Script executor has been initialized
+11:11:17.126 [TestNG-test=Nopackage-1] INFO  Sample.FillingUsingJs - Entered the FirstName
+11:11:17.163 [TestNG-test=Nopackage-1] INFO  Sample.FillingUsingJs - Entered the LastName
+11:11:18.891 [TestNG-test=Nopackage-1] INFO  Sample.FillingUsingJs - The Alert has been added
+11:53:36.462 [TestNG-test=Nopackage-1] INFO  Sample.FillingUsingJs - Setting up the browser
+11:53:36.486 [TestNG-test=Nopackage-1] INFO  Sample.FillingUsingJs - Event webdriver browser has been setup
+11:59:08.190 [TestNG-test=Nopackage-1] INFO  Sample.FillingUsingJs - Setting up the browser
+11:59:08.238 [TestNG-test=Nopackage-1] INFO  Sample.FillingUsingJs - Event webdriver browser has been setup
+12:00:35.125 [TestNG-test=Nopackage-1] INFO  Sample.FillingUsingJs - The required browser is launched
+12:00:35.125 [TestNG-test=Nopackage-1] INFO  Sample.FillingUsingJs - The Java Script executor has been initialized
+12:00:54.743 [TestNG-test=Nopackage-1] INFO  Sample.FillingUsingJs - Setting up the browser
+12:00:54.789 [TestNG-test=Nopackage-1] INFO  Sample.FillingUsingJs - Event webdriver browser has been setup
+12:17:54.129 [TestNG-test=Nopackage-1] INFO  Sample.FillingUsingJs - Setting up the browser
+12:17:54.146 [TestNG-test=Nopackage-1] INFO  Sample.FillingUsingJs - Event webdriver browser has been setup
+13:23:44.557 [TestNG-test=Nopackage-1] INFO  Sample.FillingUsingJs - Setting up the browser
+13:23:44.658 [TestNG-test=Nopackage-1] INFO  Sample.FillingUsingJs - Event webdriver browser has been setup
+13:24:27.012 [TestNG-test=Nopackage-1] INFO  Sample.FillingUsingJs - The required browser is launched
+13:24:27.012 [TestNG-test=Nopackage-1] INFO  Sample.FillingUsingJs - The Java Script executor has been initialized
+13:24:27.149 [TestNG-test=Nopackage-1] INFO  Sample.FillingUsingJs - Entered the FirstName
+13:24:27.186 [TestNG-test=Nopackage-1] INFO  Sample.FillingUsingJs - Entered the LastName
+13:24:29.496 [TestNG-test=Nopackage-1] INFO  Sample.FillingUsingJs - The Alert has been added
+13:26:56.984 [TestNG-test=Nopackage-1] INFO  Sample.FillingUsingJs - Setting up the browser
+13:26:57.009 [TestNG-test=Nopackage-1] INFO  Sample.FillingUsingJs - Event webdriver browser has been setup
+13:27:54.824 [TestNG-test=Nopackage-1] INFO  Sample.FillingUsingJs - The required browser is launched
+13:27:54.824 [TestNG-test=Nopackage-1] INFO  Sample.FillingUsingJs - The Java Script executor has been initialized
+13:27:54.870 [TestNG-test=Nopackage-1] INFO  Sample.FillingUsingJs - Entered the FirstName
+13:27:54.897 [TestNG-test=Nopackage-1] INFO  Sample.FillingUsingJs - Entered the LastName
+13:27:54.909 [TestNG-test=Nopackage-1] INFO  Sample.FillingUsingJs - The Alert has been added
+13:35:48.821 [TestNG-test=Nopackage-1] INFO  Sample.FillingUsingJs - Setting up the browser
+13:35:48.855 [TestNG-test=Nopackage-1] INFO  Sample.FillingUsingJs - Event webdriver browser has been setup
+13:36:29.201 [TestNG-test=Nopackage-1] INFO  Sample.FillingUsingJs - The required browser is launched
+13:36:29.202 [TestNG-test=Nopackage-1] INFO  Sample.FillingUsingJs - The Java Script executor has been initialized
+13:36:29.247 [TestNG-test=Nopackage-1] INFO  Sample.FillingUsingJs - Entered the FirstName
+13:36:29.274 [TestNG-test=Nopackage-1] INFO  Sample.FillingUsingJs - Entered the LastName
+13:36:29.285 [TestNG-test=Nopackage-1] INFO  Sample.FillingUsingJs - The Alert has been added
+13:40:26.911 [TestNG-test=Nopackage-1] INFO  Sample.FillingUsingJs - Setting up the browser
+13:40:26.926 [TestNG-test=Nopackage-1] INFO  Sample.FillingUsingJs - Event webdriver browser has been setup
+13:41:16.564 [TestNG-test=Nopackage-1] INFO  Sample.FillingUsingJs - The required browser is launched
+13:41:16.565 [TestNG-test=Nopackage-1] INFO  Sample.FillingUsingJs - The Java Script executor has been initialized
+13:41:16.595 [TestNG-test=Nopackage-1] INFO  Sample.FillingUsingJs - Entered the FirstName
+13:41:16.630 [TestNG-test=Nopackage-1] INFO  Sample.FillingUsingJs - Entered the LastName
+13:41:16.645 [TestNG-test=Nopackage-1] INFO  Sample.FillingUsingJs - The Alert has been added
+13:49:21.341 [TestNG-test=Nopackage-1] INFO  Sample.FillingUsingJs - Setting up the browser
+13:49:21.380 [TestNG-test=Nopackage-1] INFO  Sample.FillingUsingJs - Event webdriver browser has been setup
+13:50:31.465 [TestNG-test=Nopackage-1] INFO  Sample.FillingUsingJs - The required browser is launched
+13:50:31.465 [TestNG-test=Nopackage-1] INFO  Sample.FillingUsingJs - The Java Script executor has been initialized
+13:50:31.502 [TestNG-test=Nopackage-1] INFO  Sample.FillingUsingJs - Entered the FirstName
+13:50:31.536 [TestNG-test=Nopackage-1] INFO  Sample.FillingUsingJs - Entered the LastName
+13:50:36.571 [TestNG-test=Nopackage-1] INFO  Sample.FillingUsingJs - The Alert has been added
+13:51:39.327 [TestNG-test=Nopackage-1] INFO  Sample.FillingUsingJs - Setting up the browser
+13:51:39.374 [TestNG-test=Nopackage-1] INFO  Sample.FillingUsingJs - Event webdriver browser has been setup
+13:52:11.360 [TestNG-test=Nopackage-1] INFO  Sample.FillingUsingJs - The required browser is launched
+13:52:11.361 [TestNG-test=Nopackage-1] INFO  Sample.FillingUsingJs - The Java Script executor has been initialized
+13:52:11.396 [TestNG-test=Nopackage-1] INFO  Sample.FillingUsingJs - Entered the FirstName
+13:52:11.422 [TestNG-test=Nopackage-1] INFO  Sample.FillingUsingJs - Entered the LastName
+13:52:16.439 [TestNG-test=Nopackage-1] INFO  Sample.FillingUsingJs - The Alert has been added
+13:54:13.180 [TestNG-test=Nopackage-1] INFO  Sample.FillingUsingJs - Setting up the browser
+13:54:13.202 [TestNG-test=Nopackage-1] INFO  Sample.FillingUsingJs - Event webdriver browser has been setup
+13:54:40.517 [TestNG-test=Nopackage-1] INFO  Sample.FillingUsingJs - The required browser is launched
+13:54:40.517 [TestNG-test=Nopackage-1] INFO  Sample.FillingUsingJs - The Java Script executor has been initialized
+13:54:40.553 [TestNG-test=Nopackage-1] INFO  Sample.FillingUsingJs - Entered the FirstName
+13:54:40.584 [TestNG-test=Nopackage-1] INFO  Sample.FillingUsingJs - Entered the LastName
+13:54:45.608 [TestNG-test=Nopackage-1] INFO  Sample.FillingUsingJs - The Alert has been added
+13:57:17.398 [TestNG-test=Nopackage-1] INFO  Sample.FillingUsingJs - Setting up the browser
+13:57:17.420 [TestNG-test=Nopackage-1] INFO  Sample.FillingUsingJs - Event webdriver browser has been setup
+13:57:48.501 [TestNG-test=Nopackage-1] INFO  Sample.FillingUsingJs - The required browser is launched
+13:57:48.501 [TestNG-test=Nopackage-1] INFO  Sample.FillingUsingJs - The Java Script executor has been initialized
+13:57:48.534 [TestNG-test=Nopackage-1] INFO  Sample.FillingUsingJs - Entered the FirstName
+13:57:48.560 [TestNG-test=Nopackage-1] INFO  Sample.FillingUsingJs - Entered the LastName
+13:57:53.578 [TestNG-test=Nopackage-1] INFO  Sample.FillingUsingJs - The Alert has been added
+15:11:06.220 [TestNG-test=Nopackage-1] INFO  Sample.FillingUsingJs - Setting up the browser
+15:11:06.250 [TestNG-test=Nopackage-1] INFO  Sample.FillingUsingJs - Event webdriver browser has been setup
+15:11:50.009 [TestNG-test=Nopackage-1] INFO  Sample.FillingUsingJs - The required browser is launched
+15:11:50.010 [TestNG-test=Nopackage-1] INFO  Sample.FillingUsingJs - The Java Script executor has been initialized
+15:11:50.041 [TestNG-test=Nopackage-1] INFO  Sample.FillingUsingJs - Entered the FirstName
+15:11:50.070 [TestNG-test=Nopackage-1] INFO  Sample.FillingUsingJs - Entered the LastName
+15:11:55.085 [TestNG-test=Nopackage-1] INFO  Sample.FillingUsingJs - The Alert has been added
+15:52:32.390 [TestNG-test=Nopackage-1] INFO  Sample.Clicks - Setting up the browser
+15:53:08.035 [TestNG-test=Nopackage-1] INFO  Sample.Clicks - The website is lauched
+15:53:08.065 [TestNG-test=Nopackage-1] INFO  Sample.Clicks - The user clicks right clicks
+15:53:08.080 [TestNG-test=Nopackage-1] INFO  Sample.Clicks - The user double clicks
+15:53:09.686 [TestNG-test=Nopackage-1] INFO  Sample.Clicks - The user quits the driver
+15:55:01.844 [TestNG-test=Nopackage-1] INFO  Sample.Clicks - Setting up the browser
+15:55:27.509 [TestNG-test=Nopackage-1] INFO  Sample.Clicks - The website is lauched
+15:55:27.549 [TestNG-test=Nopackage-1] INFO  Sample.Clicks - The user clicks right clicks
+15:55:27.569 [TestNG-test=Nopackage-1] INFO  Sample.Clicks - The user double clicks
+15:55:34.102 [TestNG-test=Nopackage-1] INFO  Sample.Clicks - The user quits the driver
+15:56:19.217 [TestNG-test=Nopackage-1] INFO  Sample.Clicks - Setting up the browser
+15:56:48.977 [TestNG-test=Nopackage-1] INFO  Sample.Clicks - The website is lauched
+15:56:49.337 [TestNG-test=Nopackage-1] INFO  Sample.Clicks - The user clicks right clicks
+15:56:53.657 [TestNG-test=Nopackage-1] INFO  Sample.Clicks - The user double clicks
+15:56:59.519 [TestNG-test=Nopackage-1] INFO  Sample.Clicks - The user quits the driver

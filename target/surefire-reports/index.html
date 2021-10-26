@@ -102,7 +102,7 @@
                     <div class="method-list-content passed suite-Suite1">
                       <span>
                         <img width="3%" src="passed.png"/>
-                        <a href="#" class="method navigator-link" panel-name="suite-Suite1" title="Sample.Waits" hash-for-method="waitFunction">waitFunction</a> <!-- method navigator-link -->
+                        <a href="#" class="method navigator-link" panel-name="suite-Suite1" title="Sample.Clicks" hash-for-method="clicks">clicks</a> <!-- method navigator-link -->
                       </span>
                       <br/>
                     </div> <!-- method-list-content passed suite-Suite1 -->
@@ -120,14 +120,14 @@
           <div class="suite-Suite1-class-passed">
             <div class="main-panel-header rounded-window-top">
               <img src="passed.png"/>
-              <span class="class-name">Sample.Waits</span>
+              <span class="class-name">Sample.Clicks</span>
             </div> <!-- main-panel-header rounded-window-top -->
             <div class="main-panel-content rounded-window-bottom">
               <div class="method">
                 <div class="method-content">
-                  <a name="waitFunction">
-                  </a> <!-- waitFunction -->
-                  <span class="method-name">waitFunction</span>
+                  <a name="clicks">
+                  </a> <!-- clicks -->
+                  <span class="method-name">clicks</span>
                 </div> <!-- method-content -->
               </div> <!-- method -->
             </div> <!-- main-panel-content rounded-window-bottom -->
@@ -145,9 +145,9 @@
   &lt;listeners&gt;
     &lt;listener class-name=&quot;resources.ExtentReporterNG&quot;/&gt;
   &lt;/listeners&gt;
-  &lt;test thread-count=&quot;5&quot; verbose=&quot;0&quot; name=&quot;Nopackage&quot;&gt;
+  &lt;test thread-count=&quot;2&quot; verbose=&quot;0&quot; name=&quot;Nopackage&quot; parallel=&quot;classes&quot;&gt;
     &lt;classes&gt;
-      &lt;class name=&quot;Sample.Waits&quot;/&gt;
+      &lt;class name=&quot;Sample.Clicks&quot;/&gt;
     &lt;/classes&gt;
   &lt;/test&gt; &lt;!-- Nopackage --&gt;
 &lt;/suite&gt; &lt;!-- Suite1 --&gt;
@@ -189,14 +189,14 @@ data.addColumn('string', 'Class');
 data.addColumn('number', 'Time (ms)');
 data.addRows(1);
 data.setCell(0, 0, 0)
-data.setCell(0, 1, 'waitFunction')
-data.setCell(0, 2, 'Sample.Waits')
-data.setCell(0, 3, 118391);
+data.setCell(0, 1, 'clicks')
+data.setCell(0, 2, 'Sample.Clicks')
+data.setCell(0, 3, 44239);
 window.suiteTableData['Suite1']= { tableData: data, tableDiv: 'times-div-Suite1'}
 return data;
 }
               </script>
-              <span class="suite-total-time">Total running time: 1 minutes</span>
+              <span class="suite-total-time">Total running time: 44 seconds</span>
               <div id="times-div-Suite1">
               </div> <!-- times-div-Suite1 -->
             </div> <!-- times-div -->
@@ -222,9 +222,9 @@ return data;
           </div> <!-- main-panel-header rounded-window-top -->
           <div class="main-panel-content rounded-window-bottom">
             <div class="chronological-class">
-              <div class="chronological-class-name">Sample.Waits</div> <!-- chronological-class-name -->
+              <div class="chronological-class-name">Sample.Clicks</div> <!-- chronological-class-name -->
               <div class="test-method">
-                <span class="method-name">waitFunction</span>
+                <span class="method-name">clicks</span>
                 <span class="method-start">0 ms</span>
               </div> <!-- test-method -->
           </div> <!-- main-panel-content rounded-window-bottom -->

@@ -4,9 +4,9 @@
   <listeners>
   <listener class-name = "resources.ExtentReporterNG"/>
   </listeners>
-  <test name="Nopackage" >
+  <test name="Nopackage" parallel = "classes" thread-count = "2" >
     <classes>
-       <class name="Sample.Waits" />
+       <class name="Sample.Clicks" />
     </classes>
   </test>
 </suite>

@@ -4,13 +4,13 @@
   <listeners>
     <listener class-name="resources.ExtentReporterNG"/>
   </listeners>
-  <test thread-count="5" verbose="0" name="Nopackage(failed)">
+  <test thread-count="5" verbose="0" name="Nopackage(failed)" parallel="classes">
     <classes>
-      <class name="Sample.Waits">
+      <class name="Sample.Clicks">
         <methods>
-          <include name="waitFunction"/>
+          <include name="clicks"/>
         </methods>
-      </class> <!-- Sample.Waits -->
+      </class> <!-- Sample.Clicks -->
     </classes>
   </test> <!-- Nopackage(failed) -->
 </suite> <!-- Failed suite [Suite1] -->

@@ -3,14 +3,15 @@ package TestBase;
 import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.chrome.ChromeDriver;
 
+import io.github.bonigarcia.wdm.WebDriverManager;
+
 public class TestInitialization {
 	
 	public static WebDriver driver;
 	
 	public static void TestInitialization1()
 	{
-		System.out.println(System.getProperty("user.dir"));
-		System.setProperty("webdriver.chrome.driver", System.getProperty("user.dir") + "\\chromedriver (2).exe");
+		WebDriverManager.chromedriver().setup();
 		driver = new ChromeDriver();
 	}
 

@@ -38,7 +38,7 @@ static Logger logger = LogManager.getLogger(ActionClass.class.getName());
 				Actions actionDriver = new Actions(driver);
 				logger.info("Initializing the driver class");
 				
-				//Sliding to the required offset
+				//Sliding to the required offset 
 				actionDriver.clickAndHold(Repository1.Slider).moveByOffset(233, 0).release()
 				.build()
 				.perform();
