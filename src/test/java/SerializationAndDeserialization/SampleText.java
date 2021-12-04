@@ -1,28 +1,36 @@
 package SerializationAndDeserialization;
-
-import java.io.BufferedReader;
 import java.io.BufferedWriter;
-import java.io.FileNotFoundException;
+import java.io.File;
 import java.io.FileReader;
 import java.io.FileWriter;
 import java.io.IOException;
-import java.nio.file.Files;
-import java.nio.file.Path;
-import java.nio.file.Paths;
-import java.util.HashMap;
-import java.util.Map.Entry;
-import java.util.Set;                                       
+import org.apache.commons.io.FileUtils;                                       
 
 public class SampleText {
 	
-   public static void main(String args[]) throws IOException
+@SuppressWarnings("deprecation")
+public static void main(String args[]) throws IOException
    {
 	   
-	   HashMap<String, String> hM = new HashMap<String, String>();
-	   
-	   for(Entry<String, String> eS: hM.entrySet())
-		   System.out.println(eS.getKey() + " " +  eS.getValue());
-	   
+	  String contentOfFile = FileUtils.readFileToString(new File(System.getProperty("user.dir") + "\\src\\main\\resources\\TextFile.txt"));
+	  
+	  FileWriter fileWriter = new FileWriter(System.getProperty("user.dir") + "\\src\\main\\resources\\Output.txt");
+	  BufferedWriter bufferWriter = new BufferedWriter(fileWriter);
+	  
+	  for(int i = 65; i <= 90; i++)
+	  {
+		  int j = 0;
+		  for(int k = 0; k < contentOfFile.length(); k++)
+			  if((int) contentOfFile.charAt(k) == i || (int) contentOfFile.charAt(k) == i + 32)
+				  j++;
+		  bufferWriter.write((char)i + " " + j + "\n");
+		  j = 0;
+	  }
+	  
+	  bufferWriter.close();
+	  fileWriter.close();
+		  
+	  
    }
 
 }
