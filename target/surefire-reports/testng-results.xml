@@ -2,16 +2,16 @@
 <testng-results skipped="0" failed="0" ignored="0" total="1" passed="1">
   <reporter-output>
   </reporter-output>
-  <suite name="Suite1" duration-ms="44270" started-at="2021-10-24T10:26:15Z" finished-at="2021-10-24T10:26:59Z">
+  <suite name="Sample Suite" duration-ms="38189" started-at="2021-12-05T17:51:51Z" finished-at="2021-12-05T17:52:29Z">
     <groups>
     </groups>
-    <test name="Nopackage" duration-ms="44270" started-at="2021-10-24T10:26:15Z" finished-at="2021-10-24T10:26:59Z">
-      <class name="Sample.Clicks">
-        <test-method status="PASS" signature="clicks()[pri:0, instance:Sample.Clicks@28701274]" name="clicks" duration-ms="44239" started-at="2021-10-24T10:26:15Z" finished-at="2021-10-24T10:26:59Z">
+    <test name="Car Loan" duration-ms="38189" started-at="2021-12-05T17:51:51Z" finished-at="2021-12-05T17:52:29Z">
+      <class name="TestScripts.TestCase1">
+        <test-method status="PASS" signature="discountVerification()[pri:0, instance:TestScripts.TestCase1@59474f18]" name="discountVerification" duration-ms="38169" started-at="2021-12-05T17:51:51Z" finished-at="2021-12-05T17:52:29Z">
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- clicks -->
-      </class> <!-- Sample.Clicks -->
-    </test> <!-- Nopackage -->
-  </suite> <!-- Suite1 -->
+        </test-method> <!-- discountVerification -->
+      </class> <!-- TestScripts.TestCase1 -->
+    </test> <!-- Car Loan -->
+  </suite> <!-- Sample Suite -->
 </testng-results>

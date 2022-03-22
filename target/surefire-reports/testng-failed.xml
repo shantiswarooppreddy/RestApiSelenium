@@ -1,16 +1,13 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
-<suite guice-stage="DEVELOPMENT" verbose="0" name="Failed suite [Suite1]">
-  <listeners>
-    <listener class-name="resources.ExtentReporterNG"/>
-  </listeners>
-  <test thread-count="5" verbose="0" name="Nopackage(failed)" parallel="classes">
+<suite guice-stage="DEVELOPMENT" verbose="0" name="Failed suite [Sample Suite]">
+  <test thread-count="5" verbose="0" name="Car Loan(failed)">
     <classes>
-      <class name="Sample.Clicks">
+      <class name="TestScripts.TestCase1">
         <methods>
-          <include name="clicks"/>
+          <include name="discountVerification"/>
         </methods>
-      </class> <!-- Sample.Clicks -->
+      </class> <!-- TestScripts.TestCase1 -->
     </classes>
-  </test> <!-- Nopackage(failed) -->
-</suite> <!-- Failed suite [Suite1] -->
+  </test> <!-- Car Loan(failed) -->
+</suite> <!-- Failed suite [Sample Suite] -->

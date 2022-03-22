@@ -3,7 +3,7 @@
 <suite name="Sample Suite">
 <test name ="Car Loan">
        <classes>   
-          <class name="SamplePackage.SampleClass"/>     
+          <class name="TestScripts.TestCase1"/>     
       </classes>
   </test>
 </suite> 
