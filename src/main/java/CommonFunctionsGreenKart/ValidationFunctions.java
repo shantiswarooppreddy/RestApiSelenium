@@ -8,7 +8,7 @@ import TestBase.TestInitialization;
 
 public class ValidationFunctions extends TestInitialization{
 	
-
+//This is a sample comment1
 	public void discountValidation(String itemName, String price, String discountPrice)
 	{
 		do {
